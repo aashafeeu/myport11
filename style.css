@@ -1,0 +1,358 @@
+@font-face {
+	font-family: "dhivehi";
+	src: url(fonts/mv_waheed.otf);
+	font-weight: 800;	
+}
+
+@font-face {
+	font-family: "dhivehi";
+	src: url(fonts/mv_faseyha.otf);
+	font-weight: 400;	
+}
+
+
+.dhivehi_text {
+	font-family: dhivehi;
+	direction: rtl;
+
+}
+
+body {
+			font-family: 'Open Sans', sans-serif;
+			margin: 0;
+		}
+
+		#hero img { 
+
+			border-radius: 50%; 
+			border-width: 10px; 
+			border-color: rgb(155, 81, 244, 1.0); 
+			border-style: solid;
+			margin-bottom: 30px;
+			margin-top: 70px;
+
+
+		 }
+
+	
+
+		 h4 {
+
+		 	text-transform: uppercase;
+		 	font-size: 16px; 
+		 	text-align: left;
+		 }
+
+		 p {
+
+		 	color: grey;
+		 	text-align: justify;
+		 	margin-bottom: 50px;
+
+
+		 }
+
+		 #intro {
+
+		 	font-weight: 300;
+		 	font-style: italic;
+		 	font-size: 25px;
+		 	margin: 5px;
+		 }	
+
+		  #name {
+
+		 		 	font-size: 25px;
+		 		 	color: rgb(155, 81, 244, 1.0);
+		 		 	font-size: 30px;
+		 		 	margin: 0;
+		 }	
+
+
+		 #title {
+
+		 		color: white ;
+		 		background-color: rgb(155, 81, 244, 1.0);
+		 		padding: 10px;
+		 		width: 300px;
+		 		margin: auto;
+		 }
+
+
+		 #hero {
+
+		 	text-align: center;
+		 	background:linear-gradient(rgba(11,207,150,0.5) ,rgba(11,207,150,0.5)), url('img/bg.jpg');
+		 	padding-bottom: 50px;		 	
+		 	background-repeat: no-repeat;
+		 	background-position: center;
+		 	background-size: cover;
+
+		 }
+
+		 #content { 
+
+		 	width: 1200px;
+		 	margin: auto;
+		 	margin-top: 50px;
+
+
+
+
+		  }
+
+
+		  footer {
+
+		  		text-align: center;
+		  		background-color: rgb(79,79,79);
+		  		padding: 30px;
+
+		  }
+
+
+		  .white {
+
+		  	color: white;
+
+		  }
+
+		  .footer-icon {
+
+		  	margin-right: 10px;
+		  	margin-left: 10px;
+		  }
+
+
+		  nav ul {
+		  	list-style: none;
+
+		  }
+
+		  nav a {
+
+		  		text-transform: uppercase;
+		  		color: black;
+		  		font-size: 16px;
+		  		font-weight: 800;
+		  		text-decoration: none;
+		  		display: ;
+		  }
+
+		  nav li {
+		  	display: inline-block;
+		  	margin-right: 10px;
+		  	margin-left: 10px;
+		  }
+
+
+		  header {
+		  	position: absolute;
+		  	top: 30px;
+		  	right: 0;
+		  	left: 0;
+		  	width: 1200px;
+		  	margin: auto;
+
+		  }
+
+
+		  header nav {
+
+		  	display: inline-block;
+		  	float: right;
+
+
+		  }
+
+
+		  @keyframes colordance {
+		  	0% {
+		  		color: red ;
+		  	}
+
+		  	100% {
+		  		color: green;
+
+		  	}
+		  }
+
+		  /* thumbnil comme */
+
+
+		  .thumbnail img {
+
+		  	width: 350px;
+		  	height: 250px;
+		  	object-fit: cover;
+		  	border-radius: 50px;
+		  	object-position: right;
+		  	transition: all 0.4s;
+		  	
+		  }
+
+		   .thumbnail:hover img {
+		  	border-radius: 0;
+		  	object-position: left;
+
+
+		  }
+
+
+		  .thumbnail h2	{
+		  	font-size: 18px;
+		  	margin: 5px 0;
+		  	text-transform: uppercase;
+
+		  }
+
+		  .thumbnail h3	{
+		  	font-size: 14px;
+		  	margin: 5px 0;
+		  	font-weight: 600;
+		  
+
+		  }
+
+		  .thumbnail p {
+
+		  		font-size: 12px;
+		  }
+
+
+		  .thumbnail {
+		  	display: inline-block;
+		  	width: 350px;
+		  	margin: 10px;
+		  }
+
+		  .thumbnail:hover h2 {
+		  	color: red;
+		  }
+
+
+
+
+
+
+		  #page-title 
+		  {
+		  	text-transform: uppercase;
+		  	color: white;
+		  	font-size: 45px;
+		  	margin-top: 0;
+		  	padding-top: 50px;
+
+
+		  	animation: colordance 5s;
+		  	animation-iteration-count: infinite;
+		  	animation-direction: reverse;
+		  	
+		  }
+
+
+	@media (max-width:1200px) {
+		header,
+		#content {
+			width: 100%;
+			padding-right: 20px;
+			padding-left: 20px;
+			box-sizing: border-box;
+
+		}
+	}
+
+
+
+	@media (max-width: 768px) {
+
+			.thumbnail{
+				display: block;
+				margin: auto;
+
+			}
+
+
+	}	  
+
+	.article h2 {
+		font-size: 40px;
+		color: red;
+
+	}
+
+	}	  
+
+	.article p {  
+
+		font-size: 44px;
+		line-height: 35px;
+		color: black;
+
+
+	}
+
+	.article img{
+
+			object-fit: cover;
+			border-radius: 10px;
+			
+	}
+
+
+	#mobile-menu-icon {
+		float: right;
+
+	}
+	
+
+	@media (min-width:768px) {
+		#mobile-menu-icon {
+			display: none;
+
+		}
+
+			}
+
+	@media(max-width:768px) {
+
+		header	nav {
+			position: fixed;
+			top: 0;
+			right: 100%;
+			left: 0;
+			bottom: 0;
+			background-color: red;
+			transition: all 1s;
+
+			text-align: center;
+			padding-top: 200px;
+			overflow: hidden;
+
+		}
+
+
+		header nav.open {
+			right: 0%;
+		}
+
+
+		nav li {
+			display: block;
+
+		}
+
+		nav a {
+			font-size: 35px;
+		}
+
+		#mobile-menu-icon  {
+			position: fixed;
+			right: 25px;
+		}
+
+	}
+
+
+
+
